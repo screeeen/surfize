@@ -1,0 +1,273 @@
+Converting GML script: ${project_dir}/scripts/scrInit/scrInit.gml
+Converted string - line 11: ' ' -> " "
+Converted string - line 12: ' ' -> " "
+Converted string - line 31: 'X' -> "X"
+Converted string - line 37: 'X' -> "X"
+
+Converting GML script: ${project_dir}/scripts/menu/menu.gml
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/scripts/stCheckWeapon/stCheckWeapon.gml
+Converted string - line 7: 're' -> "re"
+
+Converting GML script: ${project_dir}/scripts/startGame/startGame.gml
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/scripts/stShake/stShake.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 3: view_wview = global.wview -> __view_set( e__VW.WView, 0, global.wview )
+Converted builtin - line 8: view_wview = global.wview + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.WView, 0, global.wview + choose(random(argument0),random(-argument0)) )
+Converted builtin - line 4: view_hview = global.hview -> __view_set( e__VW.HView, 0, global.hview )
+Converted builtin - line 9: view_hview = global.hview + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.HView, 0, global.hview + choose(random(argument0),random(-argument0)) )
+Converted builtin - line 6: view_xview = __view_get( e__VW.XView, 0 ) + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + choose(random(argument0),random(-argument0)) )
+Converted builtin - line 7: view_yview = __view_get( e__VW.YView, 0 ) + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + choose(random(argument0),random(-argument0)) )
+
+Converting GML script: ${project_dir}/scripts/bulleting/bulleting.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}/scripts/scoring/scoring.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}/scripts/state_machine/state_machine.gml
+Converted string - line 7: 'arg0' -> "arg0"
+Converted string - line 8: 'arg1' -> "arg1"
+Converted string - line 9: 'arg2' -> "arg2"
+Converted string - line 10: 'arg3' -> "arg3"
+Converted string - line 11: 'arg4' -> "arg4"
+Converted string - line 12: 'arg5' -> "arg5"
+Converted string - line 13: 'arg6' -> "arg6"
+Converted string - line 14: 'arg7' -> "arg7"
+
+Converting GML script: ${project_dir}/scripts/LoadFMOD/LoadFMOD.gml
+Converted string - line 9: 'GMFMODSimple.dll' -> "GMFMODSimple.dll"
+
+Converting GML script: ${project_dir}/scripts/onscore_submit/onscore_submit.gml
+Converted string - line 2: '' -> ""
+Converted string - line 2: '' -> ""
+
+Converting GML script: ${project_dir}/scripts/onscore_submit_ext/onscore_submit_ext.gml
+Error: variable 'variable_global_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted string - line 3: 'quick' -> "quick"
+Converted string - line 4: 'form' -> "form"
+Converted string - line 7: '__oid' -> "__oid"
+Converted string - line 7: '__oid' -> "__oid"
+Converted string - line 10: ' ' -> " "
+Converted string - line 10: '0' -> "0"
+Converted string - line 11: '__oid' -> "__oid"
+Converted string - line 15: 'list.php?list=' -> "list.php?list="
+Converted string - line 15: '&submit=' -> "&submit="
+Converted string - line 15: '&name=' -> "&name="
+Converted string - line 15: '&website=' -> "&website="
+Converted string - line 15: '&score=' -> "&score="
+Converted string - line 15: '&identity=' -> "&identity="
+Converted string - line 15: '&stamp=' -> "&stamp="
+Converted string - line 15: '&auth=' -> "&auth="
+Converted string - line 16: '__onscore_embed' -> "__onscore_embed"
+Converted string - line 16: '&embedded=3' -> "&embedded=3"
+Converted string - line 17: '' -> ""
+
+Converting GML script: ${project_dir}/scripts/onscore_show_list/onscore_show_list.gml
+Error: variable 'variable_global_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted string - line 3: 'list.php?list=' -> "list.php?list="
+Converted string - line 4: '__onscore_embed' -> "__onscore_embed"
+Converted string - line 4: '&embedded=3' -> "&embedded=3"
+Converted string - line 5: '' -> ""
+
+Converting GML script: ${project_dir}/scripts/onscore_show_game/onscore_show_game.gml
+Error: variable 'variable_global_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted string - line 3: '' -> ""
+Converted string - line 4: '__onscore_embed' -> "__onscore_embed"
+Converted string - line 4: '&embedded=2' -> "&embedded=2"
+Converted string - line 5: '' -> ""
+
+Converting GML script: ${project_dir}/scripts/onscore_show_comments/onscore_show_comments.gml
+Error: variable 'variable_global_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted string - line 3: '&allcomments=true' -> "&allcomments=true"
+Converted string - line 4: '__onscore_embed' -> "__onscore_embed"
+Converted string - line 4: '&embedded=3' -> "&embedded=3"
+Converted string - line 5: '' -> ""
+
+Converting GML script: ${project_dir}/scripts/onscore_show_index/onscore_show_index.gml
+Error: variable 'variable_global_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted string - line 3: 'index.php' -> "index.php"
+Converted string - line 4: '__onscore_embed' -> "__onscore_embed"
+Converted string - line 4: '?embedded=1' -> "?embedded=1"
+Converted string - line 5: '' -> ""
+
+Converting GML script: ${project_dir}/scripts/onscore_use_splash/onscore_use_splash.gml
+Converted string - line 2: 'gamemaker_version' -> "gamemaker_version"
+Converted string - line 3: 'OnScore splash screens require Game Maker 8 or later.' -> "OnScore splash screens require Game Maker 8 or later."
+
+Converting GML script: ${project_dir}/scripts/__onscore_embedded/__onscore_embedded.gml
+Converted string - line 2: 'splash_show_web("' -> "splash_show_web(\""
+Converted string - line 2: '&splash=true", 0);' -> "&splash=true\", 0);"
+
+Converting GML script: ${project_dir}/scripts/string_urlencode/string_urlencode.gml
+Converted string - line 3: '' -> ""
+Converted string - line 5: '0123456789ABCDEF' -> "0123456789ABCDEF"
+Converted string - line 17: '+' -> "+"
+Converted string - line 20: '%' -> "%"
+
+Converting GML script: ${project_dir}/scripts/onscore_connection_script/onscore_connection_script.gml
+Converted string - line 12: 'D5nTW075TojMYJ8sMGC3EcTZnLEJqs6V' -> "D5nTW075TojMYJ8sMGC3EcTZnLEJqs6V"
+Converted string - line 13: 'game.php?game=1' -> "game.php?game=1"
+Converted string - line 15: 'http://redefineteclas.com/wp-content/uploads/2012/05/onscore/' -> "http://redefineteclas.com/wp-content/uploads/2012/05/onscore/"
+
+Converting GML script: ${project_dir}/objects/oInput/Draw_0.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted string - line 15: 'WHAT IS YOUR NAME?' -> "WHAT IS YOUR NAME?"
+
+Converting GML script: ${project_dir}/objects/oControles/Step_1.gml
+Converted string - line 18: 'X' -> "X"
+
+Converting GML script: ${project_dir}/objects/oControles/Draw_0.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}/objects/oMenu/Create_0.gml
+Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: ${project_dir}/objects/oMenu/Draw_0.gml
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 38: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 34: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 35: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 38: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 40: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 51: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 35: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 38: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 40: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 51: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/objects/oPlayer/Step_0.gml
+Converted builtin - line 90: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 92: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 95: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 97: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 100: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 102: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 105: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 107: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 92: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 95: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 100: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 107: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/objects/oPivot/Step_0.gml
+Converted builtin - line 42: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 44: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 47: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 49: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 52: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 54: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 57: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 59: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 44: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 47: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 52: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 59: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/objects/oOption/Draw_0.gml
+ERROR: /private/tmp/PKInstallSandbox.GbHlrJ/GameMakerStudio2/GMS2TEMP/conv/gmx/neu_swarm2_63_pospoAudio_last_score_189FCB2A/objects/oOption/Draw_0.gml - 15: empty if statement
+ERROR: /private/tmp/PKInstallSandbox.GbHlrJ/GameMakerStudio2/GMS2TEMP/conv/gmx/neu_swarm2_63_pospoAudio_last_score_189FCB2A/objects/oOption/Draw_0.gml - 16: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}/objects/oOption/Draw_0.gml
+
+Converting GML script: ${project_dir}/objects/oRayoBota/Step_0.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/objects/oMuerte/Alarm_0.gml
+Converted builtin - line 1: view_wview = 1600 -> __view_set( e__VW.WView, 0, 1600 )
+Converted builtin - line 2: view_hview = 1200 -> __view_set( e__VW.HView, 0, 1200 )
+Converted builtin - line 7: view_wport = 1000 -> __view_set( e__VW.WPort, 0, 1000 )
+Converted builtin - line 8: view_hport = 800 -> __view_set( e__VW.HPort, 0, 800 )
+
+Converting GML script: ${project_dir}/objects/oMuerte/Step_0.gml
+Converted builtin - line 1: view_wview = 1600 + choose(random(1600),random(-1600)) -> __view_set( e__VW.WView, 0, 1600 + choose(random(1600),random(-1600)) )
+Converted builtin - line 2: view_hview = 1200 + choose(random(1600),random(-1600)) -> __view_set( e__VW.HView, 0, 1200 + choose(random(1600),random(-1600)) )
+
+Converting GML script: ${project_dir}/objects/oAskScore/Alarm_0.gml
+Converted string - line 3: '' -> ""
+
+Converting GML script: ${project_dir}/objects/oAskScore/Step_0.gml
+Converted string - line 9: '' -> ""
+
+Converting GML script: ${project_dir}/objects/oAskScore/Draw_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+Converted string - line 9: 'SUBMIT KILLS?' -> "SUBMIT KILLS?"
+Converted string - line 10: 'ESCAPE: NO' -> "ESCAPE: NO"
+Converted string - line 11: 'ENTER: YES' -> "ENTER: YES"
+
+Converting GML script: ${project_dir}/objects/oPuntoMorte/Step_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+
+Game speed set to 60
+String not found: ConversionLog_ScriptNameInUse
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'joystick/joystick_check_button.gml'
+Added compatibility script 'joystick/joystick_exists.gml'
+Added compatibility script 'joystick/joystick_xpos.gml'
+Added compatibility script 'joystick/joystick_ypos.gml'
+Added compatibility script 'joystick/__joystick_2_gamepad.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/room_set_view.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'joystick/__init_joystick.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'joystick/joystick_process_events.gml'
+Added compatibility script '__global_object_depths.gml'

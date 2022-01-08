@@ -1,0 +1,5 @@
+
+mataPlayer()
+
+exit;
+
