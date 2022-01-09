@@ -22,7 +22,7 @@ if controlTime < 1{
        
           //if !instance_exists(oBullet) instance_create(x,y,oBullet);
           //fireCounter =-1;
-          blo = instance_create(x,y,oBulletThin);
+			blo = instance_create(x,y,oBulletThin);
            blo.direction = direction
            blo.image_angle = direction +90
            
@@ -30,7 +30,7 @@ if controlTime < 1{
           if global.bullets >= 0 global.bullets -=1
           
           image_index = 4
-          stShake(10)
+          stShake(5,5,0.2)
           }
           
        if global.bullets <= 0 {

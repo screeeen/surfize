@@ -12,5 +12,10 @@ tLaser = 10;
 laserState = 0
 
 
+shake = false;
+shake_time = 0;
+shake_magnitude = 0;
+shake_fade = 0;
+
 //globalvar a,aa,ab,moving;
 

@@ -72,14 +72,14 @@ if controlTime < 1{
 	if global.bullets >= 0 {global.bullets -=1;paintBullet = 1};
 
 	image_index = 4
-	stShake(10)
+	stShake(4, 5, 0.2);
 	}
           
     if global.bullets <= 0 {
 	    bl = instance_create(x,y,oBulletThin);
 	    bl.direction = direction
 	    bl.image_angle = direction +90
-
+		stShake(1, 1, 0.1);
 	    controlTime = 12;
 	    }
 }  
@@ -94,4 +94,25 @@ if !laserState {
 	if global.kup{y -= acc};
 }
 
+
+
+
+if (shake) 
+{ 
+   shake_time -= 1; 
+   var _xval = choose(-shake_magnitude, shake_magnitude); 
+   var _yval = choose(-shake_magnitude, shake_magnitude); 
+   camera_set_view_pos(view_camera[0], _xval, _yval); 
+
+   if (shake_time <= 0) 
+   { 
+      shake_magnitude -= shake_fade; 
+
+      if (shake_magnitude <= 0) 
+      { 
+         camera_set_view_pos(view_camera[0], 0, 0); 
+         shake = false; 
+      } 
+   } 
+}
 //print("x",x)

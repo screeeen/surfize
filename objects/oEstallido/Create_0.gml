@@ -5,6 +5,6 @@ b.speed = random_range(4,64)
 b.direction = i
 
 }
-stShake(16)
+stShake(5,15,1)
 instance_destroy()
 

@@ -22,6 +22,7 @@ function scrInit() {
 	global.myFont = font_add_sprite(sFont2, ord(" "), false, 0);
 	global.myFont2 = font_add_sprite(sFont3, ord(" "), false, 0);
 	//global.diametros = ds_list_create()
+	
 
 	
 

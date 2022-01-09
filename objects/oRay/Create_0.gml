@@ -4,14 +4,4 @@ ds_list_add(b,instance_find(oAgujerSuper,i))
 }
 
 alarm = 30
-/*
-for (ii=0;ii<ds_list_size(b);ii+=1){
-f = ds_list_find_value(b,ii)
-if instance_exists(f){
-
-f = instance_create(f.x,f.y,oCircularEmiter)
-}
-}
-
-/* */
-/*  */
+stShake(50,20,4)
