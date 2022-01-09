@@ -14,6 +14,10 @@ function scrInit() {
 	global.maxmuertes = 0
 	global.nombreEntered = false
 	
+	global.game_width = camera_get_view_width(view_camera);
+	global.game_height = camera_get_view_height(view_camera);
+
+	
 	global.weapon_index = 0;
 	global.myFont = font_add_sprite(sFont2, ord(" "), false, 0);
 	global.myFont2 = font_add_sprite(sFont3, ord(" "), false, 0);
@@ -148,3 +152,5 @@ function scrInit() {
 
 /* end scrInit */
 }
+
+

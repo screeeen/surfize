@@ -1,5 +1,5 @@
-xprevious = x
-yprevious = y
+//xprevious = x
+//yprevious = y
 
 alarm = 20
 

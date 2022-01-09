@@ -5,39 +5,39 @@ Converted string - line 31: 'X' -> "X"
 Converted string - line 37: 'X' -> "X"
 
 Converting GML script: ${project_dir}/scripts/menu/menu.gml
-Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 1: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 1: view_wview -> global.game_width
+Converted builtin - line 1: view_hview -> global.game_height
 
 Converting GML script: ${project_dir}/scripts/stCheckWeapon/stCheckWeapon.gml
 Converted string - line 7: 're' -> "re"
 
 Converting GML script: ${project_dir}/scripts/startGame/startGame.gml
-Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 10: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 10: view_hview -> __view_get( e__VW.HView, 0 )
-Converted builtin - line 11: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_xview -> 0
+Converted builtin - line 11: view_yview -> 0
+Converted builtin - line 10: view_wview -> global.game_width
+Converted builtin - line 11: view_wview -> global.game_width
+Converted builtin - line 10: view_hview -> global.game_height
+Converted builtin - line 11: view_hview -> global.game_height
 
 Converting GML script: ${project_dir}/scripts/stShake/stShake.gml
-Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> 0
 Converted builtin - line 1: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
-Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> 0
 Converted builtin - line 2: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
 Converted builtin - line 3: view_wview = global.wview -> __view_set( e__VW.WView, 0, global.wview )
 Converted builtin - line 8: view_wview = global.wview + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.WView, 0, global.wview + choose(random(argument0),random(-argument0)) )
 Converted builtin - line 4: view_hview = global.hview -> __view_set( e__VW.HView, 0, global.hview )
 Converted builtin - line 9: view_hview = global.hview + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.HView, 0, global.hview + choose(random(argument0),random(-argument0)) )
-Converted builtin - line 6: view_xview = __view_get( e__VW.XView, 0 ) + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + choose(random(argument0),random(-argument0)) )
-Converted builtin - line 7: view_yview = __view_get( e__VW.YView, 0 ) + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + choose(random(argument0),random(-argument0)) )
+Converted builtin - line 6: view_xview = 0 + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.XView, 0, 0 + choose(random(argument0),random(-argument0)) )
+Converted builtin - line 7: view_yview = 0 + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.YView, 0, 0 + choose(random(argument0),random(-argument0)) )
 
 Converting GML script: ${project_dir}/scripts/bulleting/bulleting.gml
-Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_xview -> 0
+Converted builtin - line 7: view_yview -> 0
 
 Converting GML script: ${project_dir}/scripts/scoring/scoring.gml
-Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_xview -> 0
+Converted builtin - line 7: view_yview -> 0
 
 Converting GML script: ${project_dir}/scripts/state_machine/state_machine.gml
 Converted string - line 7: 'arg0' -> "arg0"
@@ -125,86 +125,86 @@ Converted string - line 13: 'game.php?game=1' -> "game.php?game=1"
 Converted string - line 15: 'http://redefineteclas.com/wp-content/uploads/2012/05/onscore/' -> "http://redefineteclas.com/wp-content/uploads/2012/05/onscore/"
 
 Converting GML script: ${project_dir}/objects/oInput/Draw_0.gml
-Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 5: view_xview -> 0
+Converted builtin - line 6: view_yview -> 0
+Converted builtin - line 5: view_wview -> global.game_width
+Converted builtin - line 6: view_hview -> global.game_height
 Converted string - line 15: 'WHAT IS YOUR NAME?' -> "WHAT IS YOUR NAME?"
 
 Converting GML script: ${project_dir}/objects/oControles/Step_1.gml
 Converted string - line 18: 'X' -> "X"
 
 Converting GML script: ${project_dir}/objects/oControles/Draw_0.gml
-Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 13: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 13: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 13: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_xview -> 0
+Converted builtin - line 11: view_xview -> 0
+Converted builtin - line 13: view_xview -> 0
+Converted builtin - line 9: view_yview -> 0
+Converted builtin - line 11: view_yview -> 0
+Converted builtin - line 13: view_yview -> 0
+Converted builtin - line 11: view_wview -> global.game_width
+Converted builtin - line 13: view_wview -> global.game_width
 
 Converting GML script: ${project_dir}/objects/oMenu/Create_0.gml
-Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview -> 0
 
 Converting GML script: ${project_dir}/objects/oMenu/Draw_0.gml
-Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 23: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 24: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 27: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 34: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 35: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 38: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 23: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 24: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 27: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 34: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 35: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 38: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 40: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 51: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 24: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 27: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 34: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 35: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 38: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 40: view_hview -> __view_get( e__VW.HView, 0 )
-Converted builtin - line 51: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_xview -> 0
+Converted builtin - line 11: view_xview -> 0
+Converted builtin - line 21: view_xview -> 0
+Converted builtin - line 21: view_xview -> 0
+Converted builtin - line 23: view_xview -> 0
+Converted builtin - line 24: view_xview -> 0
+Converted builtin - line 27: view_xview -> 0
+Converted builtin - line 34: view_xview -> 0
+Converted builtin - line 35: view_xview -> 0
+Converted builtin - line 38: view_xview -> 0
+Converted builtin - line 21: view_yview -> 0
+Converted builtin - line 21: view_yview -> 0
+Converted builtin - line 23: view_yview -> 0
+Converted builtin - line 24: view_yview -> 0
+Converted builtin - line 27: view_yview -> 0
+Converted builtin - line 34: view_yview -> 0
+Converted builtin - line 35: view_yview -> 0
+Converted builtin - line 38: view_yview -> 0
+Converted builtin - line 40: view_yview -> 0
+Converted builtin - line 51: view_yview -> 0
+Converted builtin - line 11: view_wview -> global.game_width
+Converted builtin - line 23: view_wview -> global.game_width
+Converted builtin - line 24: view_wview -> global.game_width
+Converted builtin - line 27: view_wview -> global.game_width
+Converted builtin - line 34: view_wview -> global.game_width
+Converted builtin - line 35: view_wview -> global.game_width
+Converted builtin - line 38: view_wview -> global.game_width
+Converted builtin - line 40: view_hview -> global.game_height
+Converted builtin - line 51: view_hview -> global.game_height
 
 Converting GML script: ${project_dir}/objects/oPlayer/Step_0.gml
-Converted builtin - line 90: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 92: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 95: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 97: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 100: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 102: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 105: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 107: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 92: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 95: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 100: view_hview -> __view_get( e__VW.HView, 0 )
-Converted builtin - line 107: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 90: view_xview -> 0
+Converted builtin - line 92: view_xview -> 0
+Converted builtin - line 95: view_xview -> 0
+Converted builtin - line 97: view_xview -> 0
+Converted builtin - line 100: view_yview -> 0
+Converted builtin - line 102: view_yview -> 0
+Converted builtin - line 105: view_yview -> 0
+Converted builtin - line 107: view_yview -> 0
+Converted builtin - line 92: view_wview -> global.game_width
+Converted builtin - line 95: view_wview -> global.game_width
+Converted builtin - line 100: view_hview -> global.game_height
+Converted builtin - line 107: view_hview -> global.game_height
 
 Converting GML script: ${project_dir}/objects/oPivot/Step_0.gml
-Converted builtin - line 42: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 44: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 47: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 49: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 52: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 54: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 57: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 59: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 44: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 47: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 52: view_hview -> __view_get( e__VW.HView, 0 )
-Converted builtin - line 59: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 42: view_xview -> 0
+Converted builtin - line 44: view_xview -> 0
+Converted builtin - line 47: view_xview -> 0
+Converted builtin - line 49: view_xview -> 0
+Converted builtin - line 52: view_yview -> 0
+Converted builtin - line 54: view_yview -> 0
+Converted builtin - line 57: view_yview -> 0
+Converted builtin - line 59: view_yview -> 0
+Converted builtin - line 44: view_wview -> global.game_width
+Converted builtin - line 47: view_wview -> global.game_width
+Converted builtin - line 52: view_hview -> global.game_height
+Converted builtin - line 59: view_hview -> global.game_height
 
 Converting GML script: ${project_dir}/objects/oOption/Draw_0.gml
 ERROR: /private/tmp/PKInstallSandbox.GbHlrJ/GameMakerStudio2/GMS2TEMP/conv/gmx/neu_swarm2_63_pospoAudio_last_score_189FCB2A/objects/oOption/Draw_0.gml - 15: empty if statement
@@ -212,12 +212,12 @@ ERROR: /private/tmp/PKInstallSandbox.GbHlrJ/GameMakerStudio2/GMS2TEMP/conv/gmx/n
 Too many errors - GML not processed : ${project_dir}/objects/oOption/Draw_0.gml
 
 Converting GML script: ${project_dir}/objects/oRayoBota/Step_0.gml
-Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 17: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 23: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 5: view_xview -> 0
+Converted builtin - line 11: view_xview -> 0
+Converted builtin - line 17: view_yview -> 0
+Converted builtin - line 23: view_yview -> 0
+Converted builtin - line 11: view_wview -> global.game_width
+Converted builtin - line 17: view_hview -> global.game_height
 
 Converting GML script: ${project_dir}/objects/oMuerte/Alarm_0.gml
 Converted builtin - line 1: view_wview = 1600 -> __view_set( e__VW.WView, 0, 1600 )
@@ -236,19 +236,19 @@ Converting GML script: ${project_dir}/objects/oAskScore/Step_0.gml
 Converted string - line 9: '' -> ""
 
 Converting GML script: ${project_dir}/objects/oAskScore/Draw_0.gml
-Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
-Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 1: view_xview -> 0
+Converted builtin - line 2: view_yview -> 0
+Converted builtin - line 1: view_wview -> global.game_width
+Converted builtin - line 2: view_hview -> global.game_height
 Converted string - line 9: 'SUBMIT KILLS?' -> "SUBMIT KILLS?"
 Converted string - line 10: 'ESCAPE: NO' -> "ESCAPE: NO"
 Converted string - line 11: 'ENTER: YES' -> "ENTER: YES"
 
 Converting GML script: ${project_dir}/objects/oPuntoMorte/Step_0.gml
-Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
-Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
-Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_xview -> 0
+Converted builtin - line 5: view_yview -> 0
+Converted builtin - line 7: view_yview -> 0
+Converted builtin - line 5: view_wview -> global.game_width
 
 Game speed set to 60
 String not found: ConversionLog_ScriptNameInUse

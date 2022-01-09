@@ -1,5 +1,3 @@
-
-
 //lee datos
 scrRead()
 scrInit()
@@ -20,6 +18,7 @@ if  not global.started {
        //}
        }
  */
+ 
 global.started = 1
  room_goto(_1) 
  
@@ -27,7 +26,6 @@ global.started = 1
 global.kpleft = 0
 global.kpright = 0
 
-//show_debug_message("*** hola",string(global.kpleft))
 
 // inicia variables para pintar
 globalvar paintScore;
@@ -46,10 +44,7 @@ screen_scale = 1;
 
 enabled = true;
 
-//pSurf = surface_create(screen_w,screen_h);
-
 screen = surface_create(screen_w,screen_h);
-//darkSurf = surface_create(screen_w,screen_h);
 
 if (screen)
 {
@@ -61,14 +56,8 @@ if (screen)
 var w,h;
 w = 1280 * screen_scale;
 h = 800 * screen_scale;
-room_set_view(_1,0,true,0,0,1600,1200,0,0,w,h,0,0,-1,-1,oMenu);
+room_set_view(_1,0,true,0,0,screen_w,screen_h,0,0,w,h,0,0,-1,-1,oMenu);
 
 // this will destroy the screen object if surfaces are not supported on the graphics card, reverting to the viewport method
 if (screen == -1) game_end();
 
-
-
-
-
-/* */
-/*  */

@@ -6,8 +6,12 @@ function startGame() {
 	global.muertes = 0
 
 	instance_create(-100,-100,oCabeza1)
-	instance_create(__view_get( e__VW.WView, 0 )*0.5,__view_get( e__VW.HView, 0 )*0.5,oPlayer)
-	instance_create(random(__view_get( e__VW.XView, 0 )+__view_get( e__VW.WView, 0 )),random(__view_get( e__VW.YView, 0 )+__view_get( e__VW.HView, 0 )),oPaquete)
+	instance_create(global.game_width*0.5,global.game_height*0.5,oPlayer)
+	//instance_create(random(global.game_width),random(global.game_height),oPaquete)
 	//FMODSoundPlay(global.bgAudio);
-
+	
+	camera_set_view_pos(view_camera,0,0);
+	camera_set_view_size(view_camera,global.wview,global.hview);
+    
 }
+

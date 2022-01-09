@@ -1,8 +1,3 @@
-//if (not surface_exists(pSurf)) pSurf = surface_create(screen_w, screen_h);
-//if (not surface_exists(screen)) screen = surface_create(screen_w, screen_h);
-//if (not surface_exists(darkSurf)) darkSurf = surface_create(screen_w, screen_h);
-
-//surface_reset_target();
 draw_clear(c_green);
 
 

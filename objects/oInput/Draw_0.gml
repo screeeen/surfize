@@ -2,8 +2,8 @@
 
 
 //posicion objeto
-x = __view_get( e__VW.XView, 0 ) + __view_get( e__VW.WView, 0 )*0.5
-y = __view_get( e__VW.YView, 0 ) + __view_get( e__VW.HView, 0 )*0.5
+x = 0 + global.game_width*0.5
+y = 0 + global.game_height*0.5
 
 
 

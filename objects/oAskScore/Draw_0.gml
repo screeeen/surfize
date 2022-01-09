@@ -1,5 +1,5 @@
-x = __view_get( e__VW.XView, 0 ) + __view_get( e__VW.WView, 0 )*0.5
-y = __view_get( e__VW.YView, 0 ) + __view_get( e__VW.HView, 0 )*0.3
+x = 0 + global.game_width*0.5
+y = 0 + global.game_height*0.3
 
 draw_set_font(global.myFont)
 draw_set_halign(fa_center)
