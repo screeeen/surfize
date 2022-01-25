@@ -1,3 +1,3 @@
-//instance_create(x,y,oExplosionSmall)
+instance_create(x,y,oExplosionSmall)
 
 action_kill_object();

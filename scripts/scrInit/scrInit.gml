@@ -88,15 +88,13 @@ function scrInit() {
 	//global.powUp = FMODSoundAdd("audio/powUp3Wah_d.ogg",false,false);
 
 	//disparos
-	//global.shotSnd = FMODSoundAdd("audio/shot.ogg",false,false);
-	//global.wBlockSnd = FMODSoundAdd("audio/shotBasic.ogg",false,false);
-	//global.laserSnd = FMODSoundAdd("audio/laser.ogg",false,false);
-	//global.threeWaySnd = FMODSoundAdd("audio/3way.ogg",false,false);
+	
+	
+	
+	
 	//global.bolas
-	//global.retroUFOSnd = FMODSoundAdd("audio/retroUFO.ogg",false,false);
-
 	//global.aranamorteSnd = FMODSoundAdd("audio/explosionDePolvo.ogg",false,false);
-	//global.circularSnd = FMODSoundAdd("audio/circular.ogg");
+	//global.circularSnd = FMODSoundAdd("audio/circular.ogg"); // FALTA
 	//global.amarilloSnd = FMODSoundAdd("audio/bombaamarilla.ogg",false,false);
 	//global.dustSnd = FMODSoundAdd("audio/dust.ogg",false,false);
 
@@ -118,7 +116,7 @@ function scrInit() {
 	//global.rayosSnd = FMODSoundAdd("audio/rayosSpeech.ogg",false,false);
 	//global.crispadoSnd = FMODSoundAdd("audio/crispado.ogg",false,false);
 	//global.boomSnd = FMODSoundAdd("audio/boom.ogg",false,false);
-	//global.risaSnd = FMODSoundAdd("audio/risaSpeech.ogg",false,false);
+	
 
 
 	//global.morteSnd = FMODSoundAdd("audio/interferencia.ogg",false,false);

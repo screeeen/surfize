@@ -12,6 +12,7 @@ function morteGusano() {
        
 
 	       //FMODSoundPlay(global.aranamorteSnd,false);
+		   audio_play_sound(aranamorteSnd,1,false);
        
        
 	       if instance_number(oPaquete) < 16 {

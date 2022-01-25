@@ -1,7 +1,7 @@
 t = 0
 alarm = 18
 
-//FMODSoundPlay(global.morteSnd,false)
+audio_play_sound (morteSnd,1,false)
 
 
 

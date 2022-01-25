@@ -23,27 +23,28 @@ if global.gaming
 	
 	////oWeaponBox
 	for (i = 0;i< ds_list_size(weapons);i+=1){
+		//print("W",weapons.length)
     
 	    var currentPic;
 	    currentPic = ds_list_find_value(weapons,i)
 	    draw_sprite(currentPic,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
 	    draw_sprite(sprFrame,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
-	    if i == global.weapon_index {
-	       image_speed =  1.05
-	       draw_sprite(sprite191,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
-	       setFontMarquee()
-	       draw_text(scroll,(global.game_height - 20),string_repeat(marqueText [i],1))
-	       }
+		    if i == global.weapon_index {
+		       image_speed =  1.05
+		       draw_sprite(sprite191,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
+		       setFontMarquee()
+		       draw_text(scroll,(global.game_height - 20),string_repeat(marqueText [i],1))
+		       }
     
-		}
-	} else {
+			}
+		} else {
 
-	//SPLASH SCREEN  (si no ha jugado)
-	//marquee generico
-	setFontMarquee()
-	draw_text(scroll,(global.game_height - 20),string_hash_to_newline(string_repeat(" PRESS SPACE TO START ... CURSORS TO MOVE ... SHOOT ALL THE BUGS AND AND SNAKES ...SURVIVE FOR GLORY... GAME BY REDEFINETECLAS 2012 ",1)))
+		//SPLASH SCREEN  (si no ha jugado)
+		//marquee generico
+		setFontMarquee()
+		draw_text(scroll,(global.game_height - 20),string_hash_to_newline(string_repeat(" PRESS SPACE TO START ... CURSORS TO MOVE ... SHOOT ALL THE BUGS AND AND SNAKES ...SURVIVE FOR GLORY... GAME BY REDEFINETECLAS 2012 ",1)))
 
-	//pinta logo
-	setFontBlack()
-	draw_sprite_ext(sprite_index,image_index,x,y,1,1,image_angle,c_black,1)
-}
+		//pinta logo
+		setFontBlack()
+		draw_sprite_ext(sprite_index,image_index,x,y,1,1,image_angle,c_black,1)
+	}

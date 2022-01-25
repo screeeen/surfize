@@ -1,5 +1,5 @@
 function script0(argument0) {
-	//
+	print("object1 misterioso")
 	if argument0=0
 	{b=0}
 	if argument0=1

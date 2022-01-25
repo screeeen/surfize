@@ -2,6 +2,8 @@ largo = 8
 speed = 30
 direction = 0
 
+print("oRayoBota")
+
 
 for (h=0;h<largo;h+=1){ 
 
