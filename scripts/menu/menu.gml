@@ -4,7 +4,4 @@ function menu() {
 
 	//FMODSoundPlay(global.harmonie,false);
 	//FMODUpdate();
-
-
-
 }

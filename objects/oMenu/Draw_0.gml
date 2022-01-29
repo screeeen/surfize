@@ -23,10 +23,10 @@ if global.gaming
 	
 	////oWeaponBox
 	for (i = 0;i< ds_list_size(weapons);i+=1){
-		//print("W",weapons.length)
-    
+	
 	    var currentPic;
 	    currentPic = ds_list_find_value(weapons,i)
+		// print("holaaaaaaaaaaaaa",weapons,i)
 	    draw_sprite(currentPic,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
 	    draw_sprite(sprFrame,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
 		    if i == global.weapon_index {
