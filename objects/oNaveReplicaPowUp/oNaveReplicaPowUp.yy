@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprCruz",
-    "path": "sprites/sprCruz/sprCruz.yy",
+    "name": "sprWeapon4",
+    "path": "sprites/sprWeapon4/sprWeapon4.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/Objects/pows.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oRayEmiter",
+  "name": "oNaveReplicaPowUp",
   "tags": [],
   "resourceType": "GMObject",
 }

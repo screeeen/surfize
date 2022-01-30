@@ -22,7 +22,7 @@ repeat (maxhi)
  if alpha<1 {alpha+=rate;xsc+=rate}
  if instance_exists(master) {x=master.x;y=master.y}
  
- if global.bullets < 1 {start=1}
+ if global.playerBulletsCounter < 1 {start=1}
  }
  if start=1
  {

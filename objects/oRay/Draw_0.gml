@@ -11,7 +11,7 @@ if j == ds_list_size(b) break; //instance_destroy();
 }
 
 with oMalo {
-draw_curve(x,y,x + random(80)*choose(1,-1),y+ random(80)*choose(1,-1),random(360),15)
+    draw_curve(x,y,x + random(80)*choose(1,-1),y+ random(80)*choose(1,-1),random(360),15)
 }
 
 

@@ -24,10 +24,10 @@ Converted builtin - line 6: view_xview -> 0
 Converted builtin - line 1: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
 Converted builtin - line 7: view_yview -> 0
 Converted builtin - line 2: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
-Converted builtin - line 3: view_wview = global.wview -> __view_set( e__VW.WView, 0, global.wview )
-Converted builtin - line 8: view_wview = global.wview + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.WView, 0, global.wview + choose(random(argument0),random(-argument0)) )
-Converted builtin - line 4: view_hview = global.hview -> __view_set( e__VW.HView, 0, global.hview )
-Converted builtin - line 9: view_hview = global.hview + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.HView, 0, global.hview + choose(random(argument0),random(-argument0)) )
+Converted builtin - line 3: view_wview = WIDTH_VIEW -> __view_set( e__VW.WView, 0, WIDTH_VIEW )
+Converted builtin - line 8: view_wview = WIDTH_VIEW + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.WView, 0, WIDTH_VIEW + choose(random(argument0),random(-argument0)) )
+Converted builtin - line 4: view_hview = HEIGHT_VIEW -> __view_set( e__VW.HView, 0, HEIGHT_VIEW )
+Converted builtin - line 9: view_hview = HEIGHT_VIEW + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.HView, 0, HEIGHT_VIEW + choose(random(argument0),random(-argument0)) )
 Converted builtin - line 6: view_xview = 0 + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.XView, 0, 0 + choose(random(argument0),random(-argument0)) )
 Converted builtin - line 7: view_yview = 0 + choose(random(argument0),random(-argument0)) -> __view_set( e__VW.YView, 0, 0 + choose(random(argument0),random(-argument0)) )
 

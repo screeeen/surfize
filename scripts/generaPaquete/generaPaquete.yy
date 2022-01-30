@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "before_cleaning_audio",
+    "path": "before_cleaning_audio.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "nuevoGusano",
+  "name": "generaPaquete",
   "tags": [],
   "resourceType": "GMScript",
 }

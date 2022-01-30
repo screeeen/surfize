@@ -1,100 +1,65 @@
 function scrInit() {
 
+	#macro HEIGHT_VIEW 1200
+	#macro WIDTH_VIEW 1600
 
-	global.started = 0
-	global.gaming = false
-	global.hview = 1200
-	global.wview = 1600
-	//global.d = 0 //oleadas
-	global.contador = 1
-	global.bullets = 0
-	
-	global.muertes = 0
-	global.last = 0
-	global.maxmuertes = 0
-	global.nombreEntered = false
-	
+	// values for enemies // tweak
+	// macros van sin punto y coma
+	#macro MAX_SPIDERS 8
+	#macro MAX_CABEZA_1 4
+	#macro MAX_CABEZA_2 2
+
 	global.game_width = camera_get_view_width(view_camera);
 	global.game_height = camera_get_view_height(view_camera);
 
+	// APP STATES
+	global.isMenu = false 
+	global.started = false //si ha empezado la partida
+	global.explosions = true;
+
+	// MALOS WAVE
+	global.malosCounter = 1
 	
+	// SCORES COUNT
+	global.kills = 0
+	global.lastScore = 0
+	global.maxKills = 0
+	// global.nombreEntered = false
+
+	// IF CAN PAINT THE INTERLUDE SCORES
+	global.paintScore = false
+	global.paintBullet = false
+	
+	// WEAPONS MANAGEMENT
 	global.weapon_index = 0;
+	global.playerBulletsCounter = 0
+
+	// HUD
 	global.myFont = font_add_sprite(sFont2, ord(" "), false, 0);
 	global.myFont2 = font_add_sprite(sFont3, ord(" "), false, 0);
 
-	
-	// weapons = ds_list_create(); // crea la lista
-
-
-	
-
-
+	//CONTROLS
 	if joystick_exists(1){
-	   global.controles = 1
+	   	global.controles = true
 	   } else {
-	     global.controles = 0 // si 0 keyboard, si 1 joystick
+	     global.controles = false // si 0 keyboard, si 1 joystick
 		}
 
-//print("hola tio",joystick_exists(1),global.controles)
 
 
-	//switch(global.controles)
-	//{
-	//    case 0:
-	//         global.kleft = keyboard_check_direct(ord("A"))//(ord('A'))  
-	//         global.kright = keyboard_check_direct(vk_right)//(ord('D'))
-	//         global.kup = keyboard_check_direct(vk_up)//(ord('W'))
-	//         global.kdown = keyboard_check_direct(vk_down)//(ord('S'))
-	//         global.kfire = keyboard_check_direct(ord("X"))
-         
-	//         global.kpleft = keyboard_check_pressed(vk_left)//(ord('A'))  
-	//         global.kpright = keyboard_check_pressed(vk_right)//(ord('D'))
-	//         global.kpup = keyboard_check_pressed(vk_up)//(ord('W'))
-	//         global.kpdown = keyboard_check_pressed(vk_down)//(ord('S'))
-	//         //global.kpfire = keyboard_check_pressed(ord("X"))
-         
-         
-	//         break;
-
-	//    case 1:
-	//         global.kleft =  (joystick_xpos(0) <= -0.3)
-	//         global.kright =(joystick_xpos(0) >= 0.3)
-	//         global.kup =(joystick_ypos(0) <= -0.3)
-	//         global.kdown =(joystick_ypos(0) >= 0.3)
-	//         global.kfire = 0
-	//         global.kfire = (global.kfire & 1)*2+joystick_check_button(1,1)
-         
-	//         global.kpleft = false
-	//          //if (joystick_xpos(0) <= -0.3) global.kpleft = true
-	//         global.kpright = false
-	//         //if (joystick_xpos(0) >= 0.3) global.kpright = true
-	//         global.kpup = 0
-	//         global.kpup = (joystick_ypos(0) <= -0.3)
-	//         global.kpdown = 0
-	//         global.kpdown = (joystick_ypos(0) >= 0.3)
-	//         break;
-
-	//}
-
+	// DEPRECATED AUDIO SYSTEM
 	//LoadFMOD();
 	//FMODinit(64,false);
-
 
 	 //TODO grupos. se entrecorta horrores
 	//global.startSound = FMODSoundAdd("audio/test.ogg",false,false);
 	//FMODSoundPlay(global.startSound,false); 
 
-
-
 	//global.spawn = FMODSoundAdd("audio/Spawn.ogg");
 	//global.powUp = FMODSoundAdd("audio/powUp3Wah_d.ogg",false,false);
 
 	//disparos
-	
-	
-	
-	
-	//global.bolas
+
 	//global.aranamorteSnd = FMODSoundAdd("audio/explosionDePolvo.ogg",false,false);
 	//global.circularSnd = FMODSoundAdd("audio/circular.ogg"); // FALTA
 	//global.amarilloSnd = FMODSoundAdd("audio/bombaamarilla.ogg",false,false);

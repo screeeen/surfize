@@ -39,7 +39,7 @@
     "path": "folders/Objects/gusano.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oCorno",
+  "name": "oSpider",
   "tags": [],
   "resourceType": "GMObject",
 }

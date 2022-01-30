@@ -1,5 +1,3 @@
-
-
 if (other != undefined) {
 	//instance_create(oExplosion,other.x,other.y)
 

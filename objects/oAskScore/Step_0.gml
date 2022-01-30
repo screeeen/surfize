@@ -6,7 +6,7 @@ if entered {
 
 if t < 0 {
 
-onscore_submit_ext(1,global.nombre,"",global.maxmuertes,true)
+onscore_submit_ext(1,global.nombre,"",global.maxKills,true)
 
 FMODAllStop();
 FMODfree();

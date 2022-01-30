@@ -1,13 +1,19 @@
 function checkMorte() {
 	if hp < 0 {
-       
-	       morteGusano(); 
-	       global.muertes +=1
-	       if global.last <  global.muertes global.last +=1
-	       paintScore = 1
-	       instance_destroy()
-	       exit;
-	        }else exit;
+		morteGusano();
+		generaPaquete();
+		generaMalos(); 
+		global.kills +=1
+		if (global.lastScore < global.kills){
+			 global.lastScore +=1
+			 }
+		global.paintScore = true
+		instance_destroy()
+		exit;
+
+		} else {
+			exit;
+			}
 
 
 

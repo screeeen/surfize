@@ -1,8 +1,8 @@
 hp= hp -4 
 if hp < 0 {
        //morteGusano(); 
-       global.muertes +=1
-        if global.last <  global.muertes global.last +=1
+       global.kills +=1
+        if global.lastScore <  global.kills global.lastScore +=1
         
        instance_destroy()
        

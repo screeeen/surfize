@@ -15,7 +15,7 @@ image_speed = 0
 controlTime -=1
 
 if controlTime < 1{
-    if global.bullets > 0 {
+    if global.playerBulletsCounter > 0 {
 	    switch (global.weapon_index){
 		case 0:		b = instance_create(x,y,oWBlock);
 			        b.vspeed = -32
@@ -69,13 +69,13 @@ if controlTime < 1{
 
 		
 	if (global.weapon_index == 2) controlTime = 12 else controlTime = 6;
-	if global.bullets >= 0 {global.bullets -=1;paintBullet = 1};
+	if global.playerBulletsCounter >= 0 {global.playerBulletsCounter -= 1; global.paintBullet = true};
 
 	image_index = 4
 	stShake(4, 5, 0.2);
 	}
           
-    if global.bullets <= 0 {
+    if global.playerBulletsCounter <= 0 {
 	    bl = instance_create(x,y,oBulletThin);
 	    bl.direction = direction
 	    bl.image_angle = direction +90
@@ -93,8 +93,6 @@ if !laserState {
 	if global.kdown{y += acc};
 	if global.kup{y -= acc};
 }
-
-
 
 
 if (shake) 
@@ -115,4 +113,4 @@ if (shake)
       } 
    } 
 }
-//print("x",x)
+

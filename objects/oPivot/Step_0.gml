@@ -36,7 +36,7 @@ if instance_exists(oPlayer){
 		//   h+=1
 		//   }
 		   if instance_exists(oPivot){
-			   if global.bullets > 0 {
+			   if global.playerBulletsCounter > 0 {
 				   with abec[h]{
 						print("target",oPlayer.target)
 						if instance_exists(oPlayer.target)
@@ -46,7 +46,7 @@ if instance_exists(oPlayer){
 					}
 			    }
           
-				if global.bullets <= 0 {
+				if global.playerBulletsCounter <= 0 {
 				   if instance_exists(abec[h]){
 				    abec[h].x = oPivot.x + lengthdir_x(dia, t+h)
 				    abec[h].y = oPivot.y + lengthdir_y(dia, t+h)

@@ -2,7 +2,7 @@
 // print(" *** weapons_enabled",global.weapons);
 
 function stCheckWeapon() {
-	for (g = 0; g < global.maxmuertes;g+=1){
+	for (g = 0; g < global.maxKills;g+=1){
 
 	    if (g >= laserEnabled){
 			 if(!ds_list_find_index(weapons, laser)){

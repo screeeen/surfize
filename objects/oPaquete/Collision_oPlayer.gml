@@ -1,3 +1,3 @@
-//puntoToHUD(0)
+puntoToHUD(0)
 //FMODSoundPlay(global.powUp,false)
 

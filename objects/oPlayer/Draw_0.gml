@@ -8,3 +8,8 @@ if instance_exists(oTri) {
 		draw_line_color (x,y,ido.x,ido.y,c_blue,c_blue)
 	}
 }
+
+// draw_set_font(global.myFont)
+// setFontMarquee()
+// draw_text(32,92,string(fps_real))
+// draw_text(32,122,string(fps))

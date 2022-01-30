@@ -1,8 +1,20 @@
-// si las muertes son mayores, escribe el record de muertes
-if global.maxmuertes <= global.muertes global.maxmuertes = global.muertes
-if global.last >=  global.muertes global.last = global.muertes
+// update highscores 
+if global.maxKills <= global.kills global.maxKills = global.kills
+if global.lastScore >=  global.kills global.last = global.kills
+
 //scrWrite() 
    
+STEP = 12
+FIRST_STEP = 300;
+SECOND_STEP = 595;
+INTERLUDE = 399;
+
+FIRST_ROW_HEIGHT = 0.53;
+SECOND_ROW_HEIGHT = 0.61;
+
+WIDTH_OFFSET = 0.25;
+HEIGHT_OFFSET = 0.45;
+
 //script para mostrar interludio
 t= 0
 vText = "KILLS 999"

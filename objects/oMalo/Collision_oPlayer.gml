@@ -1,5 +1,3 @@
-
 mataPlayer()
-
 exit;
 

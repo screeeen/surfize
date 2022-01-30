@@ -1,4 +1,4 @@
-draw_clear(c_green);
+// draw_clear(c_green);
 
 
 // CONTROLES

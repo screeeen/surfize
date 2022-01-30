@@ -2,23 +2,23 @@ setFontBlack()
 
 //tiempo de scroll para contador
 scroll -=2
-if scroll < (0-2800) scroll =(0+global.game_width +100)
+if scroll < (0-2800) scroll = (0 + global.game_width +100)
 
 //if ya ha jugado una partida (creo)
-if global.gaming
+if global.isMenu
 {
 
-	if t < 300 t +=12
-	if t > 595 {t = 595; t+=0}
+	if t < FIRST_STEP t += STEP
+	if t > SECOND_STEP {t = SECOND_STEP; t += 0}
 
 	////rectangulo, intergames
-	draw_line_width_color(0,global.hview*0.53,0+global.wview,global.hview*0.53,t,c_gray,c_gray)
+	draw_line_width_color(0, HEIGHT_VIEW * FIRST_ROW_HEIGHT, WIDTH_VIEW, HEIGHT_VIEW * FIRST_ROW_HEIGHT, t, c_gray,c_gray)
 	setFontInterlude()
-	draw_text_color(global.game_width*0.25, global.hview*0.45,string_copy("KILLS "+ string(global.muertes),1,iText),c_white,c_white,c_white,c_white,1)
-	draw_text_color(global.game_width*0.25, global.hview*0.53,string_copy("TOP   "+ string(global.maxmuertes),1,iText),c_white,c_white,c_white,c_white,1)
+	draw_text_color(global.game_width * WIDTH_OFFSET, HEIGHT_VIEW * HEIGHT_OFFSET, string_copy("KILLS "+ string(global.kills), 1, iText),c_white,c_white,c_white,c_white,1)
+	draw_text_color(global.game_width * WIDTH_OFFSET, HEIGHT_VIEW * FIRST_ROW_HEIGHT, string_copy("TOP   "+ string(global.maxKills), 1, iText),c_white,c_white,c_white,c_white,1)
 
 	////remaining for next price
-	draw_text_color(global.game_width*0.25, global.hview*0.61,string_copy( "NEXT  " + string(nextWeapon) ,1,iText),c_white,c_white,c_white,c_white,1) //string(round(nextWeapon mod (global.maxmuertes mod 20)))//((ds_list_size(weapons) * 20) +
+	draw_text_color(global.game_width * WIDTH_OFFSET, HEIGHT_VIEW * SECOND_ROW_HEIGHT, string_copy( "NEXT  " + string(nextWeapon), 1, iText),c_white,c_white,c_white,c_white,1) 
 	resetFont()
 	
 	////oWeaponBox
@@ -26,12 +26,12 @@ if global.gaming
 	
 	    var currentPic;
 	    currentPic = ds_list_find_value(weapons,i)
-		// print("holaaaaaaaaaaaaa",weapons,i)
-	    draw_sprite(currentPic,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
-	    draw_sprite(sprFrame,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
+		
+	    draw_sprite(currentPic,image_index,(global.game_width*WIDTH_OFFSET) + (i *128), HEIGHT_VIEW*0.80)
+	    draw_sprite(sprFrame,image_index,(global.game_width*WIDTH_OFFSET) + (i *128), HEIGHT_VIEW*0.80)
 		    if i == global.weapon_index {
 		       image_speed =  1.05
-		       draw_sprite(sprite191,image_index,(global.game_width*0.25) + (i *128), global.hview*0.80)
+		       draw_sprite(sprite191,image_index,(global.game_width*WIDTH_OFFSET) + (i *128), HEIGHT_VIEW*0.80)
 		       setFontMarquee()
 		       draw_text(scroll,(global.game_height - 20),string_repeat(marqueText [i],1))
 		       }
@@ -46,5 +46,5 @@ if global.gaming
 
 		//pinta logo
 		setFontBlack()
-		draw_sprite_ext(sprite_index,image_index,x,y,1,1,image_angle,c_black,1)
+		draw_sprite_ext(sprite_index,image_index,x,y,1,1,image_angle,c_white,1)
 	}

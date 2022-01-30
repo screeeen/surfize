@@ -1,4 +1,4 @@
-global.bullets = 0
+global.playerBulletsCounter = 0
 t = 0
 //timer = 10
 //movimiento

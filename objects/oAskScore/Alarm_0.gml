@@ -1,6 +1,6 @@
 
        
-onscore_submit_ext(3,global.nombre,"",global.maxmuertes,true)
+onscore_submit_ext(3,global.nombre,"",global.maxKills,true)
 
 
 FMODAllStop();

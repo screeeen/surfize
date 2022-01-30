@@ -1,4 +1,4 @@
-//if !instance_exists(oMalo) nuevoGusano()
+//if !instance_exists(oMalo) generaMalos()
 with oCorpo instance_destroy()
 with oCu2 instance_destroy()
 with oCu1 instance_destroy()

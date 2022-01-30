@@ -32,7 +32,7 @@
     "path": "folders/Objects/pows.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oCircularEmiter",
+  "name": "oBoomPowUp",
   "tags": [],
   "resourceType": "GMObject",
 }
