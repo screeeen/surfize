@@ -11,27 +11,29 @@ if global.isMenu
 	if t < FIRST_STEP t += STEP
 	if t > SECOND_STEP {t = SECOND_STEP; t += 0}
 
-	////rectangulo, intergames
+	// rectangulo, intergames
 	draw_line_width_color(0, HEIGHT_VIEW * FIRST_ROW_HEIGHT, WIDTH_VIEW, HEIGHT_VIEW * FIRST_ROW_HEIGHT, t, c_gray,c_gray)
 	setFontInterlude()
 	draw_text_color(global.game_width * WIDTH_OFFSET, HEIGHT_VIEW * HEIGHT_OFFSET, string_copy("KILLS "+ string(global.kills), 1, iText),c_white,c_white,c_white,c_white,1)
 	draw_text_color(global.game_width * WIDTH_OFFSET, HEIGHT_VIEW * FIRST_ROW_HEIGHT, string_copy("TOP   "+ string(global.maxKills), 1, iText),c_white,c_white,c_white,c_white,1)
 
-	////remaining for next price
+	// remaining for next price
 	draw_text_color(global.game_width * WIDTH_OFFSET, HEIGHT_VIEW * SECOND_ROW_HEIGHT, string_copy( "NEXT  " + string(nextWeapon), 1, iText),c_white,c_white,c_white,c_white,1) 
 	resetFont()
 	
-	////oWeaponBox
+	// oWeaponBox
 	for (i = 0;i< ds_list_size(weapons);i+=1){
 	
 	    var currentPic;
 	    currentPic = ds_list_find_value(weapons,i)
 		
-	    draw_sprite(currentPic,image_index,(global.game_width*WIDTH_OFFSET) + (i *128), HEIGHT_VIEW*0.80)
-	    draw_sprite(sprFrame,image_index,(global.game_width*WIDTH_OFFSET) + (i *128), HEIGHT_VIEW*0.80)
+	    draw_sprite(currentPic, image_index, (global.game_width * WIDTH_OFFSET) + (i * WEAPON_FRAME_GAP), HEIGHT_VIEW * OFFSET_WEAPON_FRAME)
+	    draw_sprite(sprFrame, image_index,(global.game_width * WIDTH_OFFSET) + (i * WEAPON_FRAME_GAP), HEIGHT_VIEW * OFFSET_WEAPON_FRAME)
+
+		// es el arma seleccionada?
 		    if i == global.weapon_index {
-		       image_speed =  1.05
-		       draw_sprite(sprite191,image_index,(global.game_width*WIDTH_OFFSET) + (i *128), HEIGHT_VIEW*0.80)
+		       image_speed =  FRAME_FLICK_SPEED;
+		       draw_sprite(sprite191, image_index, (global.game_width * WIDTH_OFFSET) + (i * WEAPON_FRAME_GAP), HEIGHT_VIEW * OFFSET_WEAPON_FRAME)
 		       setFontMarquee()
 		       draw_text(scroll,(global.game_height - 20),string_repeat(marqueText [i],1))
 		       }

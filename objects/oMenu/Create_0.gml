@@ -2,7 +2,7 @@
 if global.maxKills <= global.kills global.maxKills = global.kills
 if global.lastScore >=  global.kills global.last = global.kills
 
-//scrWrite() 
+//scrWrite() // better against a server
    
 STEP = 12
 FIRST_STEP = 300;
@@ -14,6 +14,10 @@ SECOND_ROW_HEIGHT = 0.61;
 
 WIDTH_OFFSET = 0.25;
 HEIGHT_OFFSET = 0.45;
+
+WEAPON_FRAME_GAP = 128;
+OFFSET_WEAPON_FRAME = 0.80;
+FRAME_FLICK_SPEED = 1.05;
 
 //script para mostrar interludio
 t= 0

@@ -1,5 +1,6 @@
 globalvar wBlock,laser,threeWay,circular,tri,HMisil,rayo,uno,dos,tres,cuatro,cinco,seis,siete;
-//globalvar weapon_index;
+
+// por que se le asigna aqui un sprite??
 
 wBlock = sprWeapon1
 laser = sprWeapon2
@@ -20,6 +21,9 @@ siete = sprite0
 global.kpleft = 0
 global.kpright = 0
 
+
+// número de puntos que necesita para desbloquearlo
+// hacer un map?
 globalvar laserEnabled,threewayEnabled,circularEnabled,triEnabled,HMisilEnabled,rayoEnabled,unoEnabled,dosEnabled,tresEnabled,cuatroEnabled,cincoEnabled,seisEnabled,sieteEnabled, weaponIndex,currentWeaponIndex,nextWeapon;
 
 laserEnabled = 1
@@ -39,7 +43,6 @@ nextWeapon = 999999
 
 
 
-//weapon_index = 0
 globalvar weapons;
 weapons = ds_list_create();
 
