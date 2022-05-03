@@ -39,6 +39,15 @@ function scrInit() {
 	global.myFont2 = font_add_sprite(sFont3, ord(" "), false, 0);
 
 	//CONTROLS
+	var gp_num = gamepad_get_device_count();
+	for (var i = 0; i < gp_num; i++;) {
+   		if gamepad_is_connected(i) global.gp[i] = true else global.gp[i] = false;
+	print("description", gamepad_get_description(i))
+	print("gp_num", global.gp[i])
+	print("is connected", gamepad_is_connected(i))
+	print("supported", gamepad_is_supported())
+   	}
+
 	if joystick_exists(1){
 	   	global.controles = true
 	   } else {
