@@ -11,6 +11,7 @@ function scrInit() {
 
 	global.game_width = camera_get_view_width(view_camera);
 	global.game_height = camera_get_view_height(view_camera);
+	global.credits = 0;
 
 	// APP STATES
 	global.isMenu = false 

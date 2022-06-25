@@ -20,6 +20,11 @@ if global.isMenu
 	// remaining for next price
 	draw_text_color(global.game_width * WIDTH_OFFSET, HEIGHT_VIEW * SECOND_ROW_HEIGHT, string_copy( "NEXT  " + string(nextWeapon), 1, iText),c_white,c_white,c_white,c_white,1) 
 	resetFont()
+
+	//credits
+		setFontMarquee()
+		draw_set_halign(fa_center)
+		draw_text(global.game_width * 0.5,  global.game_height * 0.7,"CREDITS " + string(global.credits))
 	
 	// oWeaponBox
 	for (i = 0;i< ds_list_size(weapons);i+=1){
@@ -49,4 +54,9 @@ if global.isMenu
 		//pinta logo
 		setFontBlack()
 		draw_sprite_ext(sprite_index,image_index,x,y,1,1,image_angle,c_white,1)
+
+		//credits
+		setFontMarquee()
+		draw_set_halign(fa_center)
+		draw_text(global.game_width * 0.5,  global.game_height * 0.7,"CREDITS " + string(global.credits))
 	}

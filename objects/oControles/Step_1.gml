@@ -11,6 +11,7 @@ switch(global.controles)
          global.kup = keyboard_check(vk_up)//(ord('W'))
          global.kdown = keyboard_check(vk_down)//(ord('S'))
          global.kfire = keyboard_check(ord("X"))
+         global.kcredits = keyboard_check_pressed(ord("C"))
          
          break;
     //joy     
@@ -21,7 +22,7 @@ switch(global.controles)
          global.kdown =(joystick_ypos(0) >= 0.3)
          global.kfire = 0
          global.kfire = (global.kfire & 1)*2+joystick_check_button(1,1)
-         
+         global.kcredits = keyboard_check_pressed(ord("C"))
          break;
 }
 

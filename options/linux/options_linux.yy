@@ -10,20 +10,12 @@
   "option_linux_icon": "${base_options_dir}/linux/icons/64.png",
   "option_linux_start_fullscreen": false,
   "option_linux_allow_fullscreen": false,
-<<<<<<< Updated upstream
   "option_linux_interpolate_pixels": true,
-=======
-  "option_linux_interpolate_pixels": false,
->>>>>>> Stashed changes
   "option_linux_display_cursor": true,
   "option_linux_sync": false,
   "option_linux_resize_window": false,
   "option_linux_scale": 0,
-<<<<<<< Updated upstream
   "option_linux_texture_page": "2048x2048",
-=======
-  "option_linux_texture_page": "256x256",
->>>>>>> Stashed changes
   "option_linux_enable_steam": false,
   "option_linux_disable_sandbox": false,
   "resourceVersion": "1.0",
