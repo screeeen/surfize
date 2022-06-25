@@ -4,7 +4,8 @@
 //longo = 1
 alarm = 40
 gravity= 0.2
-angle= random(3)
+//optimize
+angle= 0//random(3)
 xf = x //+ i*34;
 yf = y+ choose(20,-20);
 size = random(30*0.1)

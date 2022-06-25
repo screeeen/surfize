@@ -1,7 +1,11 @@
 {
   "option_operagx_version": "1.0.0.0",
   "option_operagx_next_version": "1.0.0.0",
+<<<<<<< Updated upstream
   "option_operagx_game_name": "${project_name}",
+=======
+  "option_operagx_game_name": "before_cleaning_audio",
+>>>>>>> Stashed changes
   "option_operagx_interpolate_pixels": true,
   "option_operagx_scale": 0,
   "option_operagx_texture_page": "2048x2048",

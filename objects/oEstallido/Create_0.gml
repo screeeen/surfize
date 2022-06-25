@@ -1,8 +1,10 @@
-
+//astillas 
 if (global.explosions) {
-    for(i=0;i<360;i+=random(60)){
+    //optimize
+    // for(i=0;i<360;i+=random(60)){
+    for(i=0;i<360;i+=30){
         b = instance_create(x,y,oDestro)
-        b.speed = random_range(4,64)
+        b.speed = 10//random_range(4,64)
         b.direction = i
     }
 }

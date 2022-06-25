@@ -10,8 +10,9 @@ if (global.explosions) {
     u.speed = random(4)
 
     //astillas
-    uba = instance_create(x,y,oDebrie)
-    uba.direction = random(360)
-    uba.speed = random(4)
+    //optimize
+    // uba = instance_create(x,y,oDebrie)
+    // uba.direction = random(360)
+    // uba.speed = random(4)
 }
 		

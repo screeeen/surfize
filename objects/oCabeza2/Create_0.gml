@@ -1,4 +1,4 @@
-speed = 1.5
+speed = 5.5
 
 hp = 10
 

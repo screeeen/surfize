@@ -1,6 +1,6 @@
 
 alarm[0] = 90
-velo = random_range(5,5.8)
+velo = random_range(5,10.8)
 speed = 0
 hp = 4
 bodylength = 14
