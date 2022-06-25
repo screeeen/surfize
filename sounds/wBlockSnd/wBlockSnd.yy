@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "wBlockSnd.ogg",
-  "duration": 2.387302,
+  "duration": 0.743039,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

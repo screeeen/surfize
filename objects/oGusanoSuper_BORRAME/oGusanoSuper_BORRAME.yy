@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGusanoSuper",
+  "name": "oGusanoSuper_BORRAME",
   "tags": [],
   "resourceType": "GMObject",
 }

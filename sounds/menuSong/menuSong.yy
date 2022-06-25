@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "amarilloSnd.ogg",
-  "duration": 1.568821,
+  "soundFile": "menuSong.ogg",
+  "duration": 25.7209511,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "amarilloSnd",
+  "name": "menuSong",
   "tags": [],
   "resourceType": "GMSound",
 }

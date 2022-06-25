@@ -1,6 +1,6 @@
 
 alarm[0] = 90
-velo = 8.2
+velo = 6.2
 speed = 0
 hp = 2
 bodylength = 12

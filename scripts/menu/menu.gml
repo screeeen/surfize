@@ -3,5 +3,7 @@ function menu() {
 	stCheckWeapon()
 
 	//FMODSoundPlay(global.harmonie,false);
+	audio_play_sound(menuSong,1,false);
+
 	//FMODUpdate();
 }

@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "circularSnd",
-  "duration": 0.0,
+  "soundFile": "circularSnd.ogg",
+  "duration": 1.342812,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

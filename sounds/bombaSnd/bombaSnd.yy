@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bombaSnd.ogg",
-  "duration": 1.033288,
+  "duration": 1.568821,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

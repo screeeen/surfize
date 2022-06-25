@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "harmonie",
-  "duration": 0.0,
+  "soundFile": "powUpSnd.ogg",
+  "duration": 1.436916,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "harmonie",
+  "name": "powUpSnd",
   "tags": [],
   "resourceType": "GMSound",
 }
