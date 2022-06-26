@@ -13,7 +13,7 @@ function morteGusano() {
 	       //if instance_exists(oCabeza1) with oCabeza1 instance_destroy()
 	       }
 
-		   audio_play_sound(aranamorteSnd,1,false);
+		   audio_play_sound(aranamorteSnd,.7,false);
     
 	         exit;
 }

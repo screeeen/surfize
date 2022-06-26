@@ -1,4 +1,4 @@
-audio_play_sound(aranamorteSnd,1,false);
+audio_play_sound(aranamorteSnd,.7,false);
 t = 0
 n = 2
 

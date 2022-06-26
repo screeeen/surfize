@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sBulletThin","path":"sprites/sBulletThin/sBulletThin.yy",},"order":1,},
+    {"id":{"name":"risaSnd","path":"sounds/risaSnd/risaSnd.yy",},"order":28,},
     {"id":{"name":"sBulletPara","path":"sprites/sBulletPara/sBulletPara.yy",},"order":3,},
     {"id":{"name":"sprite173","path":"sprites/sprite173/sprite173.yy",},"order":5,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":7,},

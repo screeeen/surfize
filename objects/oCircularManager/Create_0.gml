@@ -10,6 +10,7 @@ for (n=1;n<360;n+=15){
 
     }
      //FMODSoundPlay(global.circularSnd,false); 
+     audio_play_sound(circularSnd,1,false)
 
    
 

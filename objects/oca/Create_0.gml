@@ -10,7 +10,7 @@ xf = x //+ i*34;
 yf = y+ choose(20,-20);
 size = random(30*0.1)
 
-audio_play_sound(dustSnd,1,false);
+audio_play_sound(dustSnd,.5,false);
 
 /*
 // para cada particula, tiene coordenadas y tamaño

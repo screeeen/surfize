@@ -1,5 +1,5 @@
 //if !FMODInstanceIsPlaying(global.aranamorteSnd) FMODSoundPlay(global.aranamorteSnd,false);
-audio_play_sound(aranamorteSnd,1,false);
+audio_play_sound(aranamorteSnd,.7,false);
 t = 0
 
 if (global.explosions) {

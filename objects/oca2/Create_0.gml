@@ -8,7 +8,7 @@ direction = random(360)
 size = random_range(1,0.5)
 
 //FMODSoundPlay(global.dustSnd);
-audio_play_sound(dustSnd,1,false);
+audio_play_sound(dustSnd,.5,false);
 
 
 
